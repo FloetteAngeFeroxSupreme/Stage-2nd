@@ -6,5 +6,5 @@ def syracuse(n):
         else:
             n = 3 * n + 1
         s.append(n)
-    print(s)
+    print(s,max(s))
 syracuse(int(input("entrez un nombre: ")))
