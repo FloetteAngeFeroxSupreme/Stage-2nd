@@ -7,11 +7,11 @@ def calculatrice(a,b,op):
         return a*b
     elif op == "/":
         if b==0:
-            return "impossible" # Or raise ValueError("Division by zero")
+            return "impossible"
         else:
             return a/b
     else:
-        return "opérateur invalide" # Or raise ValueError("Invalid operator")
+        return "opérateur invalide"
 
 if __name__ == "__main__":
     num1 = int(input("entrez un nombre: "))
