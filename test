@@ -1,4 +1,0 @@
-def circle(r):
-    from math import pi
-    print(pi * r ** 2)
-circle(5)
